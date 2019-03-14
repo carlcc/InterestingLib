@@ -6,3 +6,6 @@ project(tests)
 
 add_executable(TestSigSlot TestSigSlot.cpp)
 target_link_libraries(TestSigSlot sigslot)
+
+add_executable(TestAES TestAES.cpp)
+target_link_libraries(TestAES aes)
